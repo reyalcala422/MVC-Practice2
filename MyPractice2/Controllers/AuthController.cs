@@ -78,5 +78,41 @@ namespace MyPractice2.Controllers
             });
 
         }
+
+
+        [HttpPost("login")]
+        //[Route("login")]
+
+        public async Task<IActionResult> Login(LoginDTO dto) {
+            var user = await db.Users.
+               FirstOrDefaultAsync(x => x.Email == dto.EmailDTO);
+            if (user == null) {
+                return BadRequest("Email not found!");
+            }
+            var hasher = new PasswordHasher<User>();
+
+            var verify = hasher.VerifyHashedPassword(
+            user,
+            user.Password,
+            dto.PasswordDTO
+            );
+            var showUserData = new {
+            user.FullName, user.Email,
+            };
+
+            if (verify == PasswordVerificationResult.Failed)
+            {
+                return BadRequest("Invalid Email or Password");
+            }
+
+            var token = GenerateToken(user);
+
+            return Ok(new {
+            Message="Login Sucess!",
+            Token = token,
+            Data = showUserData,
+            });
+
+        }
     }
 }

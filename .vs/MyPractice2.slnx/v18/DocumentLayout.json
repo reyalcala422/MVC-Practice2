@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\dto\\color\\updatecolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\dto\\color\\updatecolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\model\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\model\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\dto\\color\\createcolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\dto\\color\\createcolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\dto\\color\\colordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\dto\\color\\colordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\model\\usercolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\model\\usercolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\dto\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\dto\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\migrations\\20260703032828_cats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\migrations\\20260703032828_cats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\dto\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\dto\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\migrations\\20260701133823_initialmigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\migrations\\20260701133823_initialmigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\migrations\\20260703035026_catsrelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\migrations\\20260703035026_catsrelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|c:\\users\\admin\\desktop\\mvc practice\\mypractice2\\mypractice2\\migrations\\20260703122830_colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF602E54-04A8-37BC-E2FB-2F2FD9227837}|MyPractice2\\MyPractice2.csproj|solutionrelative:mypractice2\\migrations\\20260703122830_colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateColorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\DTO\\Color\\UpdateColorDTO.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\DTO\\Color\\UpdateColorDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\DTO\\Color\\UpdateColorDTO.cs",
+              "RelativeToolTip": "MyPractice2\\DTO\\Color\\UpdateColorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:59:34.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ColorController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Controllers\\ColorController.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\Controllers\\ColorController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Controllers\\ColorController.cs",
+              "RelativeToolTip": "MyPractice2\\Controllers\\ColorController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:33:34.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserColor.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Model\\UserColor.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\Model\\UserColor.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Model\\UserColor.cs",
+              "RelativeToolTip": "MyPractice2\\Model\\UserColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:16:56.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Color.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Model\\Color.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\Model\\Color.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Model\\Color.cs",
+              "RelativeToolTip": "MyPractice2\\Model\\Color.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:13:53.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\DTO\\Auth\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\DTO\\Auth\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\DTO\\Auth\\LoginDTO.cs",
+              "RelativeToolTip": "MyPractice2\\DTO\\Auth\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T01:14:34.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MyPractice2\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAIwHMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:03:14.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ColorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\DTO\\Color\\ColorDTO.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\DTO\\Color\\ColorDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\DTO\\Color\\ColorDTO.cs",
+              "RelativeToolTip": "MyPractice2\\DTO\\Color\\ColorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:31:52.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\appsettings.json",
+              "RelativeDocumentMoniker": "MyPractice2\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\appsettings.json",
+              "RelativeToolTip": "MyPractice2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-01T13:26:09.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateColorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\DTO\\Color\\CreateColorDTO.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\DTO\\Color\\CreateColorDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\DTO\\Color\\CreateColorDTO.cs",
+              "RelativeToolTip": "MyPractice2\\DTO\\Color\\CreateColorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:39:46.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260703122830_Colors.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Migrations\\20260703122830_Colors.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\Migrations\\20260703122830_Colors.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Migrations\\20260703122830_Colors.cs",
+              "RelativeToolTip": "MyPractice2\\Migrations\\20260703122830_Colors.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:28:30.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "APIDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Data\\APIDbContext.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\Data\\APIDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Data\\APIDbContext.cs",
+              "RelativeToolTip": "MyPractice2\\Data\\APIDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T13:28:16.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Model\\User.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Model\\User.cs",
+              "RelativeToolTip": "MyPractice2\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T13:32:27.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260703032828_Cats.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Migrations\\20260703032828_Cats.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\Migrations\\20260703032828_Cats.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Migrations\\20260703032828_Cats.cs",
+              "RelativeToolTip": "MyPractice2\\Migrations\\20260703032828_Cats.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T03:28:28.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260703035026_CatsRelationShip.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Migrations\\20260703035026_CatsRelationShip.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\Migrations\\20260703035026_CatsRelationShip.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Migrations\\20260703035026_CatsRelationShip.cs",
+              "RelativeToolTip": "MyPractice2\\Migrations\\20260703035026_CatsRelationShip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T03:50:26.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\DTO\\Auth\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\DTO\\Auth\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\DTO\\Auth\\RegisterDTO.cs",
+              "RelativeToolTip": "MyPractice2\\DTO\\Auth\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:01:59.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260701133823_InitialMigrate.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Migrations\\20260701133823_InitialMigrate.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\Migrations\\20260701133823_InitialMigrate.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Migrations\\20260701133823_InitialMigrate.cs",
+              "RelativeToolTip": "MyPractice2\\Migrations\\20260701133823_InitialMigrate.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T13:38:23.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Program.cs",
+              "RelativeDocumentMoniker": "MyPractice2\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\mvc practice\\MyPractice2\\MyPractice2\\Program.cs",
+              "RelativeToolTip": "MyPractice2\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T13:26:25.853Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
