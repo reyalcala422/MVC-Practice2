@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyPractice2.Data;
 
@@ -11,9 +12,11 @@ using MyPractice2.Data;
 namespace MyPractice2.Migrations
 {
     [DbContext(typeof(APIDbContext))]
-    partial class APIDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260703035026_CatsRelationShip")]
+    partial class CatsRelationShip
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,21 +25,28 @@ namespace MyPractice2.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("MyPractice2.Model.Color", b =>
+            modelBuilder.Entity("MyPractice2.Model.Cat", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int?>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("Id"));
 
-                    b.Property<string>("ColorName")
-                        .IsRequired()
+                    b.Property<string>("Breed")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Colors");
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Cats");
                 });
 
             modelBuilder.Entity("MyPractice2.Model.User", b =>
@@ -61,48 +71,20 @@ namespace MyPractice2.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("MyPractice2.Model.UserColor", b =>
+            modelBuilder.Entity("MyPractice2.Model.Cat", b =>
                 {
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ColorId")
-                        .HasColumnType("int");
-
-                    b.HasKey("UserId", "ColorId");
-
-                    b.HasIndex("ColorId");
-
-                    b.ToTable("UserColors");
-                });
-
-            modelBuilder.Entity("MyPractice2.Model.UserColor", b =>
-                {
-                    b.HasOne("MyPractice2.Model.Color", "Color")
-                        .WithMany("UserColors")
-                        .HasForeignKey("ColorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("MyPractice2.Model.User", "User")
-                        .WithMany("UserColors")
+                        .WithMany("Cats")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Color");
-
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("MyPractice2.Model.Color", b =>
-                {
-                    b.Navigation("UserColors");
                 });
 
             modelBuilder.Entity("MyPractice2.Model.User", b =>
                 {
-                    b.Navigation("UserColors");
+                    b.Navigation("Cats");
                 });
 #pragma warning restore 612, 618
         }

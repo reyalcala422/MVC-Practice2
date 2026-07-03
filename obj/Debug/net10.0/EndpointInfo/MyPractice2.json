@@ -77,6 +77,110 @@
         }
       }
     },
+    "/api/Color": {
+      "post": {
+        "tags": [
+          "Color"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateColorDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateColorDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateColorDTO"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Color/{id}": {
+      "put": {
+        "tags": [
+          "Color"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateColorDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateColorDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateColorDTO"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Color"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -119,14 +223,31 @@
   },
   "components": {
     "schemas": {
+      "CreateColorDTO": {
+        "type": "object",
+        "properties": {
+          "colorName": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
       "LoginDTO": {
         "type": "object",
         "properties": {
           "emailDTO": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "passwordDTO": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           }
         }
       },
@@ -146,6 +267,25 @@
             ]
           },
           "password": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
+      "UpdateColorDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "colorName": {
             "type": [
               "null",
               "string"
@@ -189,6 +329,9 @@
   "tags": [
     {
       "name": "Auth"
+    },
+    {
+      "name": "Color"
     },
     {
       "name": "WeatherForecast"

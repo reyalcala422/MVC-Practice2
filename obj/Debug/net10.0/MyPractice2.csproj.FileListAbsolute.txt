@@ -131,7 +131,6 @@ C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\st
 C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\MyPracti.A1DFB1F3.Up2Date
 C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\MyPractice2.dll
 C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\refint\MyPractice2.dll
@@ -139,3 +138,4 @@ C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\My
 C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\MyPractice2.genruntimeconfig.cache
 C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\ref\MyPractice2.dll
 C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\MyPractice2.sourcelink.json
+C:\Users\Admin\Desktop\mvc practice\MyPractice2\MyPractice2\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
