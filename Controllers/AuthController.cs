@@ -5,9 +5,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using MyPractice2.Data;
 using MyPractice2.DTO.Auth;
+using MyPractice2.DTO.User;
+using MyPractice2.Migrations;
 using MyPractice2.Model;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography.Xml;
 using System.Text;
 
 namespace MyPractice2.Controllers
@@ -111,6 +114,69 @@ namespace MyPractice2.Controllers
             Message="Login Sucess!",
             Token = token,
             Data = showUserData,
+            });
+
+        }
+
+        [HttpGet("users")]
+        public async Task<IActionResult> GetAll() {
+            var user = await db.Users
+            .Include(x => x.UserColors)
+            .ThenInclude(x => x.Color)
+            .Select(x => new
+            {
+                x.Id,
+                x.FullName,
+                Colors = x.UserColors.Select(c => c.Color.ColorName)
+            }
+            ).ToListAsync();
+            return Ok(new { 
+            Data= user
+            });
+        
+        }
+
+
+        [HttpPut("updateuser/{id}")]
+
+        public async Task<IActionResult> Put(int id, UpdateUserDTO dto)
+        {
+            var user = await db.Users
+             .Include(x=>x.UserColors)
+             .FirstOrDefaultAsync(x => x.Id == id);
+
+            if (user == null)
+                return NotFound();
+
+            user.FullName = dto.FullName;
+            db.UserColors.RemoveRange(user.UserColors);
+
+            foreach (var colorId in dto.ColorsIds)
+            {
+                user.UserColors.Add(new UserColor
+                {
+                    UserId = id,
+                    ColorId = colorId
+                });
+            }
+            await db.SaveChangesAsync();
+
+
+//view color belongs to user after updated
+            var result = await db.Users
+              .Include(x => x.UserColors)
+              .ThenInclude(x => x.Color)
+              .Where(x => x.Id == id)
+              .Select(x => new
+              {
+                  x.Id,
+                  x.FullName,
+                  Colors = x.UserColors.Select(c => c.Color.ColorName)
+              }).FirstOrDefaultAsync();
+            return Ok(new
+            {
+                Message = "User updated!",
+                Data = result
             });
 
         }

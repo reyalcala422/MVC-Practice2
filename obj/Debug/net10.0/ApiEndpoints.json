@@ -32,6 +32,37 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MyPractice2.Controllers.AuthController",
+    "Method": "Put",
+    "RelativePath": "api/Auth/updateuser/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "MyPractice2.DTO.User.UpdateUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyPractice2.Controllers.AuthController",
+    "Method": "GetAll",
+    "RelativePath": "api/Auth/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MyPractice2.Controllers.ColorController",
     "Method": "Getall",
     "RelativePath": "api/Color",
