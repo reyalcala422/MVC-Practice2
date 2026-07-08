@@ -1,4 +1,6 @@
-﻿namespace MyPractice2.Model
+﻿using MyPractice2.Model.Brand;
+
+namespace MyPractice2.Model
 {
     public class User
     {
@@ -8,5 +10,6 @@
         public string? Password { get; set; }
 
         public ICollection<UserColor> UserColors { get; set; } = new List<UserColor>();
+        public ICollection<UserBrand> UserBrands { get; set; } = new List<UserBrand>();
     }
 }
